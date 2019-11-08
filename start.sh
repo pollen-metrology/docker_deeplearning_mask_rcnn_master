@@ -1,5 +1,5 @@
 #!/bin/bash
-# docker run -it -d --gpus all --name "deeplearning_mask_rcnn_master" -v /home/docker/deeplearning_mask_rcnn_master/jenkins_agent/ws:/home/jenkins pollenm/docker_deeplearning_mask_rcnn_master
+# docker run -it -d --gpus all --name "deeplearning_mask_rcnn_master" -v /home/docker/deeplearning_mask_rcnn_master/jenkins_agent/ws:/home/jenkins pollenm/deeplearning_mask_rcnn_master
 
 docker run \
   -e JENKINS_URL=https://jenkins.pollen-metrology.com/ \
@@ -13,4 +13,4 @@ docker run \
   --restart always \
   -v /home/docker/deeplearning_mask_rcnn_master/jenkins_agent/ws:/home/jenkins \
   -v /home/deeplearning_script/:/home/scripts/ \
-  pollenm/docker_deeplearning_mask_rcnn_master
+  pollenm/deeplearning_mask_rcnn_master
