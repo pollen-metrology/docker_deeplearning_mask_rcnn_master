@@ -11,6 +11,6 @@ docker run \
   --gpus all \
   --name "deeplearning_mask_rcnn_master" \
   --restart always \
-  -v /home/docker/deeplearning_mask_rcnn_master/jenkins_agent/ws:/home/jenkins \
+  -v /home/deeplearning_script/Mask_RCNN_master/jenkins_agent/:/home/jenkins \
   -v /home/deeplearning_script/:/home/scripts/ \
   pollenm/deeplearning_mask_rcnn_master
