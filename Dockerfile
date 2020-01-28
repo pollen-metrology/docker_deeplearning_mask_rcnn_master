@@ -57,6 +57,9 @@ RUN pip3 install --upgrade pip
 # Add tensorflow 1.4
 RUN pip3 install tensorflow-gpu==1.4
 
+# Add tensorpack
+RUN pip3 install tensorpack
+
 # Add scikit
 RUN pip3 install scikit-image
 
